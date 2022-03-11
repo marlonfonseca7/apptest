@@ -14,3 +14,4 @@ const conta1 = new Conta (800, cliente1, 1001);
 const conta2 = new Conta (1000, cliente2, 2001);
 
 console.log(conta1);
+console.log(conta2);
