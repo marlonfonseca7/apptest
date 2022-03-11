@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import First from './component/first';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    
+    <First></First>
   </React.StrictMode>,
+ 
+ //<App />
+  //SPA - Single Page Application
   document.getElementById('root')
 );
 
